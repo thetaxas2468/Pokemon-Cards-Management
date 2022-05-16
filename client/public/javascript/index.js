@@ -1,0 +1,1 @@
+console.log("Welcome to the home page of pokemons have fun!");

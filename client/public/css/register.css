@@ -1,0 +1,75 @@
+html,body {
+	height: 100%;
+}
+
+body.login-page {
+	background-color: #f7f9fb;
+	font-size: 14px;
+}
+
+.login-page .brand {
+	width: 90px;
+	height: 90px;
+	overflow: hidden;
+	border-radius: 50%;
+	margin: 40px auto;
+	box-shadow: 0 4px 8px rgba(0,0,0,.05);
+	position: relative;
+	z-index: 1;
+}
+
+.login-page .brand img {
+	width: 100%;
+}
+
+.login-page .d1 {
+	width: 400px;
+}
+
+.login-page .d2 {
+	border-color: transparent;
+	box-shadow: 0 4px 8px rgba(0,0,0,.05);
+}
+
+.login-page .d2.fat {
+	padding: 10px;
+}
+
+.login-page .d2 .d4 {
+	margin-bottom: 30px;
+}
+
+.login-page .form-control {
+	border-width: 2.3px;
+}
+
+.login-page .form-group label {
+	width: 100%;
+}
+
+.login-page .btn.btn-block {
+	padding: 12px 10px;
+}
+
+.login-page .footer {
+	margin: 40px 0;
+	color: #888;
+	text-align: center;
+}
+
+@media screen and (max-width: 425px) {
+	.login-page .d1 {
+		width: 90%;
+		margin: 0 auto;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.login-page .d2.fat {
+		padding: 0;
+	}
+
+	.login-page .d2.fat .d3 {
+		padding: 15px;
+	}
+}
