@@ -1,7 +1,7 @@
 Pokemon Project created by Karam
 
 
-First project that has been created by karam aka TAXAS
+First project that has been created by karam 
 
 first you need nodemodules in server
 1-cd server
